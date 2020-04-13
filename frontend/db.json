@@ -1,0 +1,160 @@
+{
+  "portfolios": [
+    {
+      "content": "Book Store Application. In this application...You can login to this application",
+      "technology": "SpringBoot, Java & Thymeleaf",
+      "type": "Full-stack",
+      "info": "https://khem-bookcategory.herokuapp.com/login",
+      "votes": 4,
+      "id": "1"
+    },
+    {
+      "content": "Fitness club's customer registery, customer information and scheduling etc. You can login to this app or create your ow credentials",
+      "technology": "Reactjs, ES6, JSX-Syntax",
+      "type": "Front-End",
+      "info": "https://khem-fitnessclub-db.herokuapp.com/",
+      "votes": 5,
+      "id": "2"
+    },
+    {
+      "content": "Interesting front-end & backend project- Java-MariaDB, check Screen-shots. Student object and Student DAO are used to provide CRUD transactions to find student by ID, delete, find all students &insert new students’ values, into MariaDB etc. ",
+      "technology": "Java, Servlet, JSP, DAO interface, MARIA DB",
+      "info": "https://github.com/khemrajneupane/java-mariadb/blob/master/WebContent/WEB-INF/screenShots/listStudents.PNG",
+      "type": "Full-Stack",
+      "votes": 5,
+      "id": "3642"
+    },
+    {
+      "content": "This project is another example of Full-stack development in Node JS, Express, React JS, & Mongo DB technologies. Mongo DB account is created in the AWS cloud. You can add a new phonebook with numbers and names. Phone number must be unique. If the same name is entered, it alerts if you want to update the existing information. Every phonebook list contains a button for deleting.",
+      "technology": "Node JS, Express, React JS, Mongo DB",
+      "info": "https://fullstack2019helsinkiuni.herokuapp.com/",
+      "type": "Full-Stack",
+      "votes": "5",
+      "id": "8390"
+    },
+    {
+      "content": "A blogging application. You can create your user accounts. Login to application, see all the blogs entries but delete only the blog you have created. See the blogs on descending order by voting or rating and so on.",
+      "technology": "ReactJS, Express, NodeJS, exios, ES6 & JSX Syntaxing, MongoDB dataase in AWS",
+      "info": "https://github.com/khemrajneupane/fullstackopen2019/tree/master/part5/bloglist-frontend",
+      "type": "Full-Stack Development",
+      "votes": "5",
+      "id": "9324"
+    },
+    {
+      "content": "Frontend in build version added to Backend that is connected to database",
+      "technology": "ReactJS, Node, Express, MongoDB, ES6, JSX Syntaxing",
+      "info": "https://fullstack2019helsinkiuni.herokuapp.com/",
+      "type": "Full-Stack",
+      "votes": "4",
+      "id": "1789"
+    }
+  ],
+  "workexperiences": [
+    {
+      "job_title": "Group Leader ",
+      "company": "SOL Palvelut OY",
+      "start_date": "2007-10-22",
+      "end_date": "2014-10-22",
+      "responsibilities": "Housekeeping as team leader",
+      "rating": 3,
+      "id": "1"
+    },
+    {
+      "job_title": "Full-Stack Software Developer ",
+      "company": "CRF Health",
+      "start_date": "2019-08-13",
+      "end_date": "2019-12-13",
+      "responsibilities": "Building REST APIs with Node.js & Express library, \n creating Mongoose schema for the MongoDB database, \n back-end integration testing with Mocha & Chai, \n front-end unit testing with Jest & Enzyme for a React.js application,\n automated testing in Robot Framework with Selenium Library, \n continuous Integration with Jenkins for Web application test automation.",
+      "rating": 5,
+      "id": "2"
+    },
+    {
+      "job_title": "International Business Developer",
+      "company": "CoreFinland Oy",
+      "start_date": "2009-02-04",
+      "end_date": "2009-09-05",
+      "responsibilities": "Preparing company's business plans, updating its web-contents, marketing products & presenting weekly work progress in meetings ",
+      "rating": "4",
+      "id": "6368"
+    }
+  ],
+  "messages": [
+    {
+      "full_name": "Khem Raj Neupane",
+      "email": "shekharneupane@gmail.com",
+      "message": "I want to hire you, man!"
+    },
+    {
+      "full_name": "Babita Gartaula Neupane",
+      "email": "abitagneupane@gmail.com",
+      "message": "I love you sweetheart!",
+      "id": "6083"
+    },
+    {
+      "full_name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "message": "got interested in your profile. If you want we can fix time for meeting. I am looking for a full stack developer in our company.",
+      "id": "3414"
+    },
+    {
+      "full_name": "John Doe",
+      "email": "johndoe@gmail.com",
+      "message": "got interested in your profile. If you want we can fix time for meeting. I am looking for a full stack developer in our company.",
+      "id": "2548"
+    },
+    {
+      "full_name": "ddfdfdfdfdfdfd",
+      "email": "hello@gmail.com",
+      "message": "i love you",
+      "id": "8375"
+    },
+    {
+      "full_name": "dfdfdfd",
+      "email": "hello@gmail.com",
+      "message": "fdfdfdfdffdfd",
+      "id": "8736"
+    },
+    {
+      "full_name": "fdffd",
+      "email": "hello@gmail.com",
+      "message": "grgrhyrr fdf",
+      "id": "8049"
+    },
+    {
+      "full_name": "rtrtrtr",
+      "email": "fddf@gmail.com",
+      "message": "cdf fd d",
+      "id": "8997"
+    },
+    {
+      "full_name": "dfdfd",
+      "email": "hello@gmail.com",
+      "message": "fddf",
+      "id": "4919"
+    },
+    {
+      "full_name": "dfddfd",
+      "email": "hello@gmail.com",
+      "message": "fdfdfdfddfdfdfdfdfd dfdfdf",
+      "id": "5469"
+    },
+    {
+      "full_name": "dsdsddsd",
+      "email": "hellodude@gmail.com",
+      "message": "fef df fe dfd df ",
+      "id": "8820"
+    },
+    {
+      "full_name": "fddfd",
+      "email": "hellothre@gmail.com",
+      "message": "i love you",
+      "id": "2853"
+    },
+    {
+      "full_name": "sdsdsdsd",
+      "email": "sdsdsdsd@gmail.com",
+      "message": "dsdsds",
+      "id": "7332"
+    }
+  ]
+}
