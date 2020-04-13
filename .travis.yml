@@ -1,0 +1,20 @@
+sudo: required
+services:
+    - docker
+
+before_install:
+    - docker build -t khemrajneupane/react-test -f ./frontend/Dockerfile.dev .
+   
+
+script:
+    - docker run khemrajneupane/react-test npm test -- --coverage
+
+after_success:
+    - docker build -t khemrajneupane/portfolio-frontend ./frontend
+    - docker build -t khemrajneupane/portfolio-backend ./portfolio-backend
+
+# Login to the docker CLI
+    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+# Take those iamges and push them to docker hub
+    - docker push khemrajneupane/portfolio-frontend
+    - docker push khemrajneupane/portfolio-backend
