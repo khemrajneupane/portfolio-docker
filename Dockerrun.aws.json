@@ -16,7 +16,9 @@
         },
         {
             "name": "nginx",
-            "image": "khemrajneupane/nginx"
+            "image": "khemrajneupane/portfolio-nginx",
+            "hostname": "nginx",
+            "essential": true
         }
     ]
 }
