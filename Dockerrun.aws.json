@@ -1,0 +1,22 @@
+{
+    "AWSEBDockerrunVersion": 2,
+    "containerDefinitions": [
+        {
+            "name": "frontend",
+            "image": "khemrajneupane/portfolio-frontend",
+            "hostname": "frontend",
+            "essential": false
+        },
+        {
+            "name": "portfolio-backend",
+            "image":"khemrajneupane/portfolio-backend",
+            "hostname": "api",
+            "essential": false
+
+        },
+        {
+            "name": "nginx",
+            "image": "khemrajneupane/nginx"
+        }
+    ]
+}
