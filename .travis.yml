@@ -20,3 +20,15 @@ after_success:
     - docker push khemrajneupane/portfolio-frontend
     - docker push khemrajneupane/portfolio-backend
     - docker push khemrajneupane/portfolio-nginx
+deploy:
+    provider: elasticbeanstalk
+    region: eu-north-1
+    app: khem-portfolio
+    env: KhemPortfolio-env
+    bucket_name: elasticbeanstalk-eu-north-1-424825972041
+    bucket_path: portfolio-khem
+
+    on:
+        branch: master
+    access_key_id: $AWS_ACCESS_KEY
+    secret_access_key: $AWS_SECRET_KEY

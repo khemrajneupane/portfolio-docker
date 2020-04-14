@@ -5,20 +5,30 @@
             "name": "frontend",
             "image": "khemrajneupane/portfolio-frontend",
             "hostname": "frontend",
-            "essential": false
+            "essential": false,
+            "memory": 128
         },
         {
             "name": "portfolio-backend",
             "image":"khemrajneupane/portfolio-backend",
             "hostname": "api",
-            "essential": false
+            "essential": false,
+            "memory": 128
 
         },
         {
             "name": "nginx",
             "image": "khemrajneupane/portfolio-nginx",
             "hostname": "nginx",
-            "essential": true
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": 80,
+                    "containerPort": 80
+                }
+            ],
+            "links": ["frontend","portfolio-backend"],
+            "memory": 128
         }
     ]
 }
